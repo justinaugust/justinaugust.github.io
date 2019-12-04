@@ -1,0 +1,7 @@
+- name: PANDAS
+  percentage: 65
+  color: success
+
+- name: Jupyter
+  percentage: 66
+  color: secondary

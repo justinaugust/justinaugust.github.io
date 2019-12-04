@@ -14,9 +14,12 @@ Through time as a teacher leader I am experienced in professional facilitation, 
 
 <a href="/articles/ex-everything"><strong>ex-Everything</strong></a>
 
+## **Skills**
 <div class="row">
-# **Skills**
-{% include about/skills.html title="Programming" source=site.data.programming-skills %}
+{% include about/skills.html title="Languages" source=site.data.languages-skills %}
+{% include about/skills.html title="Tools" source=site.data.tools-skills %}
+</div>
+<div class="row">
 {% include about/skills.html title="People" source=site.data.people-skills %}
 {% include about/skills.html title="Etc" source=site.data.other-skills %}
 </div>
