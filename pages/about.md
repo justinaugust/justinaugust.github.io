@@ -16,7 +16,7 @@ Through time as a teacher leader I am experienced in professional facilitation, 
 
 ## **Skills**
 <div class="row">
-{% include about/skills.html title="Languages" source=site.data.languages-skills %}
+{% include about/skills.html title="Languages" source=site.data.language-skills %}
 {% include about/skills.html title="Tools" source=site.data.tools-skills %}
 </div>
 <div class="row">
