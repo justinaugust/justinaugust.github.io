@@ -1,11 +1,11 @@
 - name: Python
   percentage: 75
-  color: danger
+  color: success
 
 - name: SQL
   percentage: 33
-  color:
+  color: secondary
 
 - name: HTML/CSS
   percentage: 33
-  color: dark
+  color: light

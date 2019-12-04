@@ -2,7 +2,7 @@
 title: ex-Everything
 tags: [Me, Career Transition, Data Science, Hardcore in non-Hardcore Places]
 style: 
-color: 
+color: dark
 description: How'd you get here? Why'd you stay?
 ---
 
