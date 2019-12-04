@@ -1,7 +1,7 @@
-# - name: Adobe Photoshop
-#   percentage: 95
-#   color: info
+- name: Writing
+  percentage: 82.1
+  color: warning
 
-# - name: Adobe Illustrator
-#   percentage: 90
-#   color: success
+- name: Editing
+  percentage: 76
+  color: info

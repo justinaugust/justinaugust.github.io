@@ -15,9 +15,10 @@ Through time as a teacher leader I am experienced in professional facilitation, 
 <a href="/articles/ex-everything"><strong>ex-Everything</strong></a>
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="People Skills" source=site.data.people-skills %}
-<!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->
+# **Skills**
+{% include about/skills.html title="Programming" source=site.data.programming-skills %}
+{% include about/skills.html title="People" source=site.data.people-skills %}
+{% include about/skills.html title="Etc" source=site.data.other-skills %}
 </div>
 
 <div class="row">
