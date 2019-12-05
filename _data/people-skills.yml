@@ -1,6 +1,17 @@
-- name: Mentoring
+- name: Coaching & Mentoring
   percentage: 90
   color: success
+
 - name: Group Facilitation
   percentage: 85
   color: warning
+
+- name: Public Speaking
+  percentage: 90
+  color: success
+- name: Team Leadership
+  percentage: 63
+  color: dark
+- name: Restoration Justice Practices
+  percentage: 55
+  color: info

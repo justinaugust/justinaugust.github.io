@@ -5,3 +5,14 @@
 - name: Jupyter
   percentage: 66
   color: secondary
+
+- name: Data Cleaning
+  percentage: 75
+  color: warning
+
+- name: Data Analysis
+  percentage: 50
+  color: light
+- name: Mapping
+  percentage: 45
+  color: success
