@@ -2,9 +2,9 @@
 title               : /ex-Everything/
 description         : >-                               # >- means to ignore newlines until "url:"
                       Data. Education.
-                      Telling Stories, Making Meaning
-                      Helping People with Data
-                      Justin August
+                      Telling Stories, Making Meaning.
+                      Helping People with Data.
+                      Justin August.
 
 url                 : "http://exeverything.com"                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
