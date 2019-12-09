@@ -115,8 +115,7 @@ Scale 0-100
 - School Selectors
 - Dynamically changes
 - Shows % of Students in that Demographic Meeting or Exceeding State Standards
-
-
+<br style="clear:both">
 ### Intersectional Identity Maps
 
 <img src="/assets/img/intersectional.png" width="300" style="float: right;">
@@ -129,9 +128,11 @@ Scale 0-100
 	- Demographic Information
 - Shows “Equity Score”
 - Shareable by links
+<br style="clear:both">
 
 ## Web Access
 
+<img src="/assets/img/wsw_ss.png" width="300" style="float: right;">
 
 - [Flask](https://www.fullstackpython.com/flask.html)
 	- By using Flask to locally demo and edit my app, I was able to get it to be fully interactive.
@@ -139,7 +140,7 @@ Scale 0-100
 - [Heroku](http://heroku.com)
 	- Heroku allows for deployment of Flask-based Python apps to the web
 	- Native Postgres support
-
+<br style="clear:both">
 
 ## Future Plans
 
