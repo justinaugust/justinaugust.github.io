@@ -107,7 +107,7 @@ Scale 0-100
 
 ### School Level Maps
 
-<img src="assets/img/school_level.png" width="300" style="float: right;">
+<img src="/assets/img/school_level.png" width="300" style="float: right;">
 
 - Show performance in the whole district
 - Can see performance differences change dynamically
@@ -121,7 +121,7 @@ Scale 0-100
 
 ### Intersectional Identity Maps
 
-<img src="assets/img/intersectional.png" width="300" style="float: right;">
+<img src="/assets/img/intersectional.png" width="300" style="float: right;">
 
 - Allow you to customize it “for you”
 - Easily shareable
