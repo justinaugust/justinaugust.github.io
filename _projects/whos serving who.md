@@ -153,6 +153,7 @@ Scale 0-100
 ## Future Plans
 
 ### Moving Slow & Not Breaking Things
+
 |Pros|Cons|
 |---|---|
 |Increased access of information to parents |Increased segregation of students|
