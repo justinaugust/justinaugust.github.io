@@ -161,8 +161,6 @@ Scale 0-100
 |Uses an Intersectional Identity first approach | Does not address underlying issues of different achievement levels|
 | |Currently based solely on high stakes testing |
 
-### Collaborations
-Currently in contact with Studio Pathways and Educate78, two Oakland-based Education organizations for guidance on improvements, deployment and potential use of this app.
 
 ### Immediate Feature Additions
 - Historical trendlines for proficiency scores
