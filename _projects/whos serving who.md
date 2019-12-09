@@ -32,9 +32,11 @@ How and where should parents of color look to find a school that has high studen
 |Project Name|Goal / Outcome|Audience|
 |---|---|---|
 |School Success Map / Who's Serving Who?|Create a model that can predict a child's probability of achieving different success metrics at each school. Based on widely aggregated data such as socioeconomic indicators, learning differences, gender/sex, race/ethnicity, etc. Turn this into a web app where you can enter this information in - or exclude some - to find out the probability of schools serving your child well based on an outcome of your choosing.|Parents, Students|
+
 |Metrics|Data Source|
 |---|---|
 |GPA, College Acceptance, Reading levels, Math Levels, High Stakes Tests, SAT/ACT Scores, High School graduation rates|State school information, ??|
+
 |Pros|Cons|Reasonable|
 |---|---|---|
 |Content Knowledge, usable, important|Lots of data, perhaps too mission critical for some?|Initial Component|
@@ -59,23 +61,20 @@ How and where should parents of color look to find a school that has high studen
 
 ## Data
 ### Sources
-#### California Department of Education
-- [Research Files](https://caaspp-elpac.cde.ca.gov/caaspp/ResearchFileList?ps=true&lstTestYear=2019&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000)
-These are the standardized, official research files provided by the State
 
-#### National Center of Education Statistics
-- [Metadata from Search](https://nces.ed.gov/ccd/schoolsearch/)
-This information used for details regarding school location.
-
-#### City of Oakland
-- [Shape File](https://data.oaklandnet.com/Property/City-of-Oakland-City-Limits/9bhq-yt6w)
+|California Department of Education|National Center of Education Statistics|City of Oakland|
+|---|---|---|
+|[Research Files](https://caaspp-elpac.cde.ca.gov/caaspp/ResearchFileList?ps=true&lstTestYear=2019&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000)|[Metadata from Search](https://nces.ed.gov/ccd/schoolsearch/)|[Shape File](https://data.oaklandnet.com/Property/City-of-Oakland-City-Limits/9bhq-yt6w)|
+|These are the standardized, official research files provided by the State|This information used for details regarding school location.||
 
 ### Cleaning
 -`null` values were coded as `*`. These were replaced with `0` using PANDAS en route to the SQL DB
 
 ### Storage
 Data was read in from csv files and then the small amount of cleaning was completed before importing them into a Postgres SQL DB
+
 #### PostgresSQL Structure
+
 |Name|Description|
 |---|---|
 |who serving who|DB containing tables|
