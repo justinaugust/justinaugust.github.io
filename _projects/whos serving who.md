@@ -44,31 +44,21 @@ How and where should parents of color look to find a school that has high studen
 
 ### Update for Check-In 2
 #### This Iteration
-<table>
-<tr>
-<td>
-<h2>Definites</h2>
-<ul>
-<li>Outcoming correlations on CAASSP by:
-    <li>Ethnicity</li>
-    <li>Race</li>
-	<li>Gender</li>
-	<li>Immigration Status</li>
-	<li>EL Proficiency</li>
-</li>
-<li>Interactive Map </li>
-</li>Enter your child's demo info, get a map</li>
-</li>SQL Back End using SQLAlchemy + PostgresSQL</li>
-</ul>
-<td>
-<h2>Stretch Goals</h2>
-<ul>
-<li>Trend in outcomes over time</li>
-<li>Mobile Friendly</li>
-</ul>
-</td>
-</tr>
-</table>
+
+##### Definites
+- Outcoming correlations on CAASSP by:
+    - Ethnicity
+    - Race
+    - Gender
+    - Immigration Status
+    - EL Proficiency
+- Interactive Map 
+- Enter your child's demo info, get a map
+- SQL Back End using SQLAlchemy + PostgresSQL
+
+##### Stretch Goals
+- Trend in outcomes over time
+- Mobile Friendly
 
 ## Data
 ### Sources
