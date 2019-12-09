@@ -6,8 +6,6 @@ description: A tool for visually choosing a school for your child.
 ---
 
 # Who's Serving Who?
-
-# Who's Serving Who?
 ## General Assembly DSI Capstone Project
 _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
 
@@ -19,7 +17,7 @@ _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
 5. [Visualization](#Visualization)
 6. [Web Access](#Web-Access)
 7. [Future Plans](#Future-Plans)
-8. [Media & Demonstration Links](#Media-Demonstration-Links)
+8. [Github, Media & Demonstration Links](#Media-Demonstration-Links)
 
 <hr style="clear: both">
 
@@ -172,6 +170,7 @@ Currently in contact with Studio Pathways and Educate78, two Oakland-based Educa
 
 
 ## Media Demonstration Links
+- [Github](https://github.com/justinaugust/who-serving-who)
 - [Google Slides](https://docs.google.com/presentation/d/1DCa1Db2Y9ZnPJ1c0GazXoVGmBHjDkCz7hdzOmm3LE64/edit?usp=sharing)
 - [App Website](https://who-serving-who.herokuapp.com/)
 
