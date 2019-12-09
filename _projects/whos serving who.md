@@ -1,7 +1,7 @@
 ---
 name: Who's Serving Who?
 tools: [Python, Altair, Vega, Flask, Heroku, Data Science, Mapping, Oakland, Equity, Education]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: /assets/img/wsw.png
 description: A tool for visually choosing a school for your child.
 ---
 
