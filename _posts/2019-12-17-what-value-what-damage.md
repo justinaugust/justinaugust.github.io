@@ -83,8 +83,8 @@ We envisioned several future features that could be developed and improved given
 To see our presentation and demostration please use the following links:
 
 - [What Value? What Damage? on Heroku](https://what-value-what-damage.herokuapp.com/)
-- [Watch a Video of the App in Action!](media/app_demo.mp4)
+- [Watch a Video of the App in Action!](/assets/media/app_demo.mp4)
 - Presentation
-	- [Video](media/presentation.mp4)
-	- [PDF](media/Damage%20Estimate%20by%20Zipcode.pdf)
+	- [Video](/assets/media/presentation.mp4)
+	- [PDF](/assets/media/Damage%20Estimate%20by%20Zipcode.pdf)
 	- [Slides](https://docs.google.com/presentation/d/1RO0ZZt118jAWgInrZFqbA0gMPzDycVqmgpj8uQTybpY/edit#slide=id.p)
