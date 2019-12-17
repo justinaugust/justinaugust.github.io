@@ -3,7 +3,7 @@ title: What Value? What Damage?
 tags: [folium, python, choropleth, mapping, disaster relief, real estate, Leaflet.JS, Flask, Heroku]
 image: /assets/img/whatvaluewhatdamage.png
 style: fill
-color: green
+color: success
 description: Creating an interactive choropleth map to display data
 ---
 <img src="/assets/img/whatvaluewhatdamage.png">
