@@ -2,8 +2,8 @@
 title: What Value? What Damage?
 tags: [folium, python, choropleth, mapping, disaster relief, real estate, Leaflet.JS, Flask, Heroku]
 image: /assets/img/whatvaluewhatdamage.png
-style: 
-color: dark
+style: fill
+color: green
 description: Creating an interactive choropleth map to display data
 ---
 ## Extracting Building Values from Zillow
