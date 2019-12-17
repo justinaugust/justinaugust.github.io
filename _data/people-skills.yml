@@ -11,7 +11,7 @@
   color: success
 - name: Team Leadership
   percentage: 63
-  color: dark
-- name: Restoration Justice Practices
-  percentage: 55
+  color: warning
+- name: Restoration Justice
+  percentage: 65
   color: info
