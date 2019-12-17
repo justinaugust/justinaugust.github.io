@@ -60,11 +60,11 @@ Dylan did the bulk of the research in gathering the damage modeling functions. T
 - Zestimate for low, medium, and top tier from Quandle based on Zillow data.
 - Number of houses in each zip-code from us zip-code
 
-## FLASK Implimentation
+## FLASK implementation
 
-Albert handled the bulk of the [Flask](https://www.fullstackpython.com/flask.html) implimentation. We wanted to create a website to allow our user to input zip codes to generated a map with home values and damage estimates. This is where Flask comes in. We have all of our python scripts to generated our map with detail informations on zip codes, but we needed it in html format. Flask allows us to run our scripts and integrate it into HTML templates we created. Anytime our user inputs zip codes they are sent to our python scripts on Flask, it is return back to Flask and sent into our html templates.
+Albert handled the bulk of the [Flask](https://www.fullstackpython.com/flask.html) implementation. We wanted to create a website to allow our user to input zip codes to generated a map with home values and damage estimates. This is where Flask comes in. We have all of our python scripts to generated our map with detail informations on zip codes, but we needed it in html format. Flask allows us to run our scripts and integrate it into HTML templates we created. Anytime our user inputs zip codes they are sent to our python scripts on Flask, it is return back to Flask and sent into our html templates.
 
-## Heroku Implimentation
+## Heroku implementation
 
 Post-course Justin created a live web app hosted via [Heroku](http://heroku.com). It is hosted here: [What Value? What Damage? on Heroku](https://what-value-what-damage.herokuapp.com/)
 
