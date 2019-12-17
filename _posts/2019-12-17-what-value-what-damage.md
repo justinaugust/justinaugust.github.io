@@ -54,7 +54,7 @@ Dylan did the bulk of the research in gathering the damage modeling functions. T
 
 #### Tornado Damage
 
-- Damages are estimated from [fujita scale for tornados] (https://www.spc.noaa.gov/faq/tornado/f-scale.html)
+- Damages are estimated from [fujita scale for tornados](https://www.spc.noaa.gov/faq/tornado/f-scale.html)
 - Percentage of damage to house estimated and multiplied by the average Zestimate of the houses in each tier.
 - Percentage of zip code hit by a tornado is calculated from the area an average tornado covers (1.081 sq miles) divided by the sq miles of the zip code.
 - Zestimate for low, medium, and top tier from Quandle based on Zillow data.
