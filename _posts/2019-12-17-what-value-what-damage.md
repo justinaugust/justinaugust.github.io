@@ -6,6 +6,7 @@ style: fill
 color: green
 description: Creating an interactive choropleth map to display data
 ---
+<img src="/assets/img/whatvaluewhatdamage.png">
 ## Extracting Building Values from Zillow
 _Dylan Bailey, Albert Wong, Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
 
