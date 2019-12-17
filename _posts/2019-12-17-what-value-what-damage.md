@@ -5,32 +5,8 @@ style:
 color: dark
 description: Creating an interactive choropleth map to display data
 ---
-
-# What Value? What Damage?
-## DSI Project-5
-
-### Extracting Building Values from Zillow
+## Extracting Building Values from Zillow
 _Dylan Bailey, Albert Wong, Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
-
-- [What Value? What Damage?](#what-value-what-damage)
-  - [DSI Project-5](#dsi-project-5)
-    - [Extracting Building Values from Zillow](#extracting-building-values-from-zillow)
-  - [Problem statement](#problem-statement)
-  - [Prior Work](#prior-work)
-  - [Data](#data)
-    - [Fetching](#fetching)
-    - [Combining](#combining)
-    - [Cleaning](#cleaning)
-  - [Damage Modeling](#damage-modeling)
-    - [Damage Functions](#damage-functions)
-      - [Hurricane Function](#hurricane-function)
-      - [Flood Damage](#flood-damage)
-      - [Tornado Damage](#tornado-damage)
-  - [FLASK Implementation](#flask-implementation)
-  - [Known Issues](#known-issues)
-  - [Future Features](#future-features)
-  - [Media Links](#media-links)
-
 
 ## Problem statement
 
@@ -39,25 +15,16 @@ _Dylan Bailey, Albert Wong, Justin August_, General Assembly Data Science Immers
 - This project will add an additional indicator: the value of the properties in the affected area. Property values can be estimated according to the market price of houses.
 - In this project, the students will leverage property market prices published in different real-estate websites (e.g. Zillow), according to zip codes.
 
-## Prior Work
-- [Github Link for DSI-ATL students' past work.](https://github.com/katychow/DSI_Project4_Zipcodes)
-- [Github Link for DSI-BOS students' past work.](https://github.com/hixjas/Project-4-Zillow)
-- [Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
-- [Github Link for DSI-DC (2) students' past work.](https://github.com/zeeemo/Disaster-Estimates)
-- [Github Link for DSI-DC (3) students' past work.](https://github.com/jhuessy/ga_client_project_zillow)
-- [Github Link for DSI-NYC students' past work.](https://github.com/cbratkovics/damage_estimator)
-- [Github Link for DSI-NYC (2) students' past work.](https://github.com/rows317/DSI-8-Client-Project/blob/master/README.md)
-- [Github Link for DSI-SEA students' past work.](https://github.com/dsteffan/mount_rainier_disaster_estimate)
-
 ## Data
 
-###Sources
-	
-- [QUANDL](https://www.quandl.com/data/ZILLOW-Zillow-Real-Estate-Research) - QUANDL provides access to auto-calculated real-estate data for all zip codes that Zillow serves.
-- [US Census](https://www.census.gov/data.html) - Shapefiles for every Zip Code Tabulated Area were obtained here.
-- [`uszipcode` Python Module](https://uszipcode.readthedocs.io/index.html) - Provided population, density and occupied housing units.
-	
-	
+Sourcing the data for a project like this involved investigating various APIs. Initially our thought was to directly use the [Zillow](http://zillow.com) API. However there are few key limitations:
+1. Zillow limits searches to exact addresses, no fuzzy searching or searching by ZIP code only
+2. Zillow limits your requests
+
+To address concern 1 we sourced several sample addresses from [OpenAddresses](https://openaddresses.io/). Then for each ZIP code we would fetch the information from the API, aggregate and average them. However while doing this we ran into issue 2 - the API limiting. After some attempts to stage requests, create representative samples, and other statistical methods we realized that there was a need to find another source of data. We stumbled across the [Zillow Research Data at QUANDL](https://www.quandl.com/data/ZILLOW-Zillow-Real-Estate-Research) which made this project come to life. By having an easily queriable, often updated source of data for each ZIP code we were able to progress forward.
+
+Various metadata were needed (ie: rough housing density estimates, rough population estimates) which we found in the [`uszipcode` Python Module](https://uszipcode.readthedocs.io/index.html). This was the most easiliy accessible, stable source of data for this information. Additionally shape files for each ZIP code were sourced from the [US Census](https://www.census.gov/data.html). As an aside - ZIP codes are not geographic areas. They are mail routes as defined by the USPS and mail quantity. As such there are some ZIP codes that only cover PO Boxes that have no shape and thus do not show up on our map.
+
 ### Fetching
 	
 Data is fetched dynamically from QUANDL based on the age of the data. QUANDL data is updated every week so if the data is older than a week, new data will be fetched.
