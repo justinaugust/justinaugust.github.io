@@ -1,6 +1,7 @@
 ---
 title: What Value? What Damage?
-tags: [folium, python, choropleth, mapping, disaster relief, real estate]
+tags: [folium, python, choropleth, mapping, disaster relief, real estate, Leaflet.JS, Flask, Heroku]
+image: /assets/img/whatvaluewhatdamage.png
 style: 
 color: dark
 description: Creating an interactive choropleth map to display data
@@ -25,25 +26,16 @@ To address concern 1 we sourced several sample addresses from [OpenAddresses](ht
 
 Various metadata were needed (ie: rough housing density estimates, rough population estimates) which we found in the [`uszipcode` Python Module](https://uszipcode.readthedocs.io/index.html). This was the most easiliy accessible, stable source of data for this information. Additionally shape files for each ZIP code were sourced from the [US Census](https://www.census.gov/data.html). As an aside - ZIP codes are not geographic areas. They are mail routes as defined by the USPS and mail quantity. As such there are some ZIP codes that only cover PO Boxes that have no shape and thus do not show up on our map.
 
-### Fetching
-	
-Data is fetched dynamically from QUANDL based on the age of the data. QUANDL data is updated every week so if the data is older than a week, new data will be fetched.
-	
-Known Issues:
-	- Some zip codes do not correspond to geographic shapes and those cannot be fetched.
-	- Zip codes that Zillow does not have data for cannot be fetched
-	
-### Combining
-GeoJSON Shapes are stored separately from the QUANDL Data, along with the other data from the `uszipcodes` module. As this data is relatively static it is not needed to be updated on a regular basis.
-	
-### Cleaning
-	
-Any `null()` values were due to mistakes in the data collection process. They were dropped and made up a very small percentage of the data.
-
+Data is fetched dynamically from QUANDL based on the age of the data. QUANDL data is updated every week so if the data is older than a week, new data will be fetched. A few issues persist in this demonstration version:
+- Some zip codes do not correspond to geographic shapes and those cannot be fetched.
+- Zip codes that Zillow does not have data for cannot be fetched
 
 
 ## Damage Modeling
+
 ### Damage Functions
+
+Dylan did the bulk of the research in gathering the damage modeling functions. These functions are inserted into the program such that they are easily updatable and changeable.
 
 #### Hurricane Function
 
@@ -67,20 +59,18 @@ Any `null()` values were due to mistakes in the data collection process. They we
 - Zestimate for low, medium, and top tier from Quandle based on Zillow data.
 - Number of houses in each zip-code from us zip-code
 
-## FLASK Implementation
+## FLASK Implimentation
 
-We wanted to create a website to allow our user to input zip codes to generated a map with home values and damage estimates. This is where Flask comes in. We have all of our python scripts to generated our map with detail informations on zip codes, but we needed it in html format.
+Albert handled the bulk of the [Flask](https://www.fullstackpython.com/flask.html) implimentation. We wanted to create a website to allow our user to input zip codes to generated a map with home values and damage estimates. This is where Flask comes in. We have all of our python scripts to generated our map with detail informations on zip codes, but we needed it in html format. Flask allows us to run our scripts and integrate it into HTML templates we created. Anytime our user inputs zip codes they are sent to our python scripts on Flask, it is return back to Flask and sent into our html templates.
 
-Flask allow us to run our scripts and integrate it into html templates we created. Anytime our user input zip codes they are sent to our python scripts on Flask, it is return back to Flask and sent into our html templates.
+## Heroku Implimentation
 
-## Known Issues
-
-- ZIP Codes without Zillow data are not displayed
-- Folium limits access to Leaflet.js options
-- Some metrics are naive
-
+Post-course Justin created a live web app hosted via [Heroku](http://heroku.com). It is hosted here: [What Value? What Damage? on Heroku](https://what-value-what-damage.herokuapp.com/)
 
 ## Future Features
+
+We envisioned several future features that could be developed and improved given time, more data and funding to do the research. These included: 
+
 - Earthquake damage simulator
 - Fire damage simulator
 - “Drop a pin” functionality
@@ -89,9 +79,9 @@ Flask allow us to run our scripts and integrate it into html templates we create
 - Full Leaflet.js implementation
 - Aggregate damage estimates for all zip codes
 
+To see our presentation and demostration please use the following links:
 
-## Media Links
-- [Demonstration Maps](https://nbviewer.jupyter.org/github/justinaugust/what-value-what-damage/blob/master/map_demo.ipynb)
+- [What Value? What Damage? on Heroku](https://what-value-what-damage.herokuapp.com/)
 - [Watch a Video of the App in Action!](media/app_demo.mp4)
 - Presentation
 	- [Video](media/presentation.mp4)
