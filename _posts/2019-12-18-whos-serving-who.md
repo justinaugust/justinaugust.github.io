@@ -73,7 +73,7 @@ The algorithm assumes 55% of white girls are proficient. It is understood that t
 
 ### School Level Maps
 
-<img src="static/img/school_level.png" width="300" style="float: right;">
+<img src="/assets/img/school_level.png" width="300" style="float: right;">
 
 - Show performance in the whole district
 - Can see performance differences change dynamically
@@ -88,7 +88,7 @@ The algorithm assumes 55% of white girls are proficient. It is understood that t
 
 ### Intersectional Identity Maps
 
-<img src="static/img/intersectional.png" width="300" style="float: right;">
+<img src="/assets/img/intersectional.png" width="300" style="float: right;">
 
 - Allow you to customize it “for you”
 - Easily shareable
