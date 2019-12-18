@@ -18,6 +18,7 @@ Oakland Schools in 2019 face many challenges and thus so do parents and students
 How and where should parents of color and other traditionally marginalized groups look to find a school that has high student outcomes for children like their own?
 
 What exists now is the seedling of a larger project that I hope to grow over time. Details for the larger project are:
+
 |Goal / Outcome|Audience|Metrics|
 |---|---|---|---|---|---|---|
 |Create a model that can predict a child's probability of achieving different success metrics at each school. Based on widely aggregated data such as socioeconomic indicators, learning differences, gender/sex, race/ethnicity, etc. Turn this into a web app where you can enter this information in - or exclude some - to find out the probability of schools serving your child well based on an outcome of your choosing.|Parents, Students|GPA, College Acceptance, Reading levels, Math Levels, High Stakes Tests, SAT/ACT Scores, High School graduation rates|
