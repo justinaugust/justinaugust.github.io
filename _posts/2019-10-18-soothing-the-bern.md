@@ -16,6 +16,7 @@ In 2016 after Bernie Sanders did not win the nomination for the Democratic party
 <img class="graf-image" data-image-id="1*44-M-CacdKCcgtUj3l113A.png" data-width="1356" data-height="406" src="https://cdn-images-1.medium.com/max/800/1*44-M-CacdKCcgtUj3l113A.png">
 
 <img class="graf-image" data-image-id="1*qrYJg7S7slnjS-meXIVLyQ.png" data-width="1504" data-height="712" src="https://cdn-images-1.medium.com/max/800/1*qrYJg7S7slnjS-meXIVLyQ.png">
+
 <blockquote>Currently Bernie Sanders is losing estimated delegates rapidly — approximately 50% already. This points to him not being the nominee in 2020.</blockquote>
 
 
@@ -32,6 +33,7 @@ To answer this I analyzed the over 300,000 posts to /r/Sandersforpresident from 
 <img class="graf-image" data-image-id="1*eBSXsYU8vUkjDQocNSlawA.png" data-width="1346" data-height="432" src="https://cdn-images-1.medium.com/max/800/1*eBSXsYU8vUkjDQocNSlawA.png">
 
 <blockquote>This brings up a new point: why is there a difference and what might it mean?</blockquote>
+
 An analysis called Vader was used to detect the positive or negative sentiment of each set of posts. In doing so I was able to detect a difference and classify the posts by sentiment.
 
 <img class="graf-image" data-image-id="1*G-IEfWGkEgGqsjodNnOsQA.png" data-width="1266" data-height="698" src="https://cdn-images-1.medium.com/max/600/1*G-IEfWGkEgGqsjodNnOsQA.png">
@@ -52,6 +54,7 @@ This implies two things. The sentiment as magnified by the score is far more var
 
 ***REPAIR***
 — Listening is a reparative and restorative act. So is change and outreach. There are still hard feelings in the Sanders camp after 2016 and there will probably even more this time around. Warren is beginning to climb upwards very steadily and her similarity in campaign to Sanders’ own can be used positively to appeal to them if framed correctly.
+
 ***BUILD***
 — The Sanders Movement will continue past the Democratic nomination. By building connections and inroads Democrats have the ability to leverage a network of trust with individuals that they currently may not enjoy. This is critical to getting out the vote in 2020.
 
