@@ -46,14 +46,14 @@ Data was sourced from 4 places into 4 .csv files and then imported into a Jupyte
 
 ## Context
 
-<img src="/assets/img/wsn/part_rate_change.png" style = "float:right" />
+<img src="/assets/img/wsn/part_rate_change.png" width="300" style = "float:right" />
 
 Education now exists in a post-Common Core landscape. This means there are harder tests, given more regularly leading parents, schools and students to look for ways to lessen the amount of testing. Some states have moved towards exams such as the ACT & SAT as their High School graduation exam. This has led to spikes in participation in states such as Illinois, Rhode Island and Colorado. West Virginia followed suit in 2017.
 
 In finding new states to target you have to look at the legislative landscape as well. Pushes in states such as Illinois, Rhode Island, and Colorado has moved participation to 100%. West Virginia is en route with new legislation. New Jersey and New York are increasing  at a rate of 12% a year - meaning folks in those states are interested in the College Board's product.
-<blockquote style="float: right; background-color: grey; width: 20%">“Under the court-approved settlement, the state will allow high school juniors and seniors to graduate if they have passing scores on state PARCC exams or other approved standardized tests, such as the SAT, ACT or the military placement exam.”</blockquote>
+<blockquote>“Under the court-approved settlement, the state will allow high school juniors and seniors to graduate if they have passing scores on state PARCC exams or other approved standardized tests, such as the SAT, ACT or the military placement exam.”</blockquote>
 
-<img src="/assets/img/wsn/nj_part.png" style="float: right" />
+<img src="/assets/img/wsn/nj_part.png" width="300" style="float: right" />
 As of February a court case in New Jersey has [cleared the way](https://www.northjersey.com/story/news/2019/02/15/2879823002/) for the SAT to be a qualifying graduation requirement for High School Students. This, in addition to already being the market leader, NJ having a large population and families being familiar with us makes NJ a prime market for expansion. Clearly, students and parents in New Jersey are in need of a qualifying test for High School graduation.
 
 Moving forward we have the following potential points of analysis and action:
@@ -67,26 +67,3 @@ Moving forward we have the following potential points of analysis and action:
 ## Links
 - [Google Slides](https://docs.google.com/presentation/d/1VXePQ2neN2fO8sqE3214WL8E1D6flrOuWw4Zy6ZILgk/edit?usp=sharing)
 - [Github Repo](https://github.com/justinaugust/which-state-next)
-
-
-
-
-
-
-
-## Key takeaways:
-- Ubiquity across states is a marketing point in terms of comparison
-- On the ground realities and legal issues play into moving towards full participation
-- There are clear regional differences in the country
-- Students and parents in New Jersey are in need of a qualifying test for High School graduation
-- New Jersey is the 11th largest state - small percentages gains here are large total gains
-
-## Next Steps & Additional Data Analysis
-- Existing customer demographic information
-- Graduation requirements per state
-- Socioeconomic information of SAT test takers
-- Destinations for test-takers & list of colleges that accept/don't accept SAT
--  Marketing push based on this information
-
-## Media Links
-[Presentation Here](https://docs.google.com/presentation/d/1VXePQ2neN2fO8sqE3214WL8E1D6flrOuWw4Zy6ZILgk/edit?usp=sharing)
