@@ -98,6 +98,8 @@ The algorithm assumes 55% of white girls are proficient. It is understood that t
 	- Demographic Information
 - Shows “Equity Score”
 - Shareable by links
+- 
+<hr style="clear: both">
 
 ## Web Access
 Web access was a two-stage process. First it was demo'd locally using  [Flask](https://www.fullstackpython.com/flask.html). Using this I was able to create a fully interactive web app. Then I used [Heroku](http://heroku.com) to launch it live on the web. Heroku allows for deployment of Flask-based Python apps to the web and features native Postgres support. You can demo the app here: [Who's Serving Who on Heroku](http://who-serving-who.heroku-app.com).
