@@ -5,10 +5,8 @@ style: fill
 color: secondary
 description: An analysis of SAT & ACT scores & participation rates by State to advocate for a future target market for College Board marketing
 ---
-
-<img src="/assets/img/wsn/githubtemplate.png" width="75%">
-
 _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
+<img src="/assets/img/wsn/githubtemplate.png" width="75%">
 
 For this project, we were tasked with gathering two years of data for both the SAT & ACT tests, analyzing them and then providing a recommendation to the marketing team for a state to focus marketing energies on to expand into. We needed to collect, clean, analyze and then present our findings.
 
