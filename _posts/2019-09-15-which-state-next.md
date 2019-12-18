@@ -51,6 +51,9 @@ Data was sourced from 4 places into 4 .csv files and then imported into a Jupyte
 Education now exists in a post-Common Core landscape. This means there are harder tests, given more regularly leading parents, schools and students to look for ways to lessen the amount of testing. Some states have moved towards exams such as the ACT & SAT as their High School graduation exam. This has led to spikes in participation in states such as Illinois, Rhode Island and Colorado. West Virginia followed suit in 2017.
 
 In finding new states to target you have to look at the legislative landscape as well. Pushes in states such as Illinois, Rhode Island, and Colorado has moved participation to 100%. West Virginia is en route with new legislation. New Jersey and New York are increasing  at a rate of 12% a year - meaning folks in those states are interested in the College Board's product.
+
+## Target State
+
 <blockquote>“Under the court-approved settlement, the state will allow high school juniors and seniors to graduate if they have passing scores on state PARCC exams or other approved standardized tests, such as the SAT, ACT or the military placement exam.”</blockquote>
 
 <img src="/assets/img/wsn/nj_part.png" width="450" style="float: right" />
